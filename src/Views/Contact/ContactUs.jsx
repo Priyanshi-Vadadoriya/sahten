@@ -11,15 +11,15 @@ const ContactUs = () => {
                 <div className="contact-us">
                     <h3 className="display-7">Contact Us</h3>
                     <div className="form">
-                        <div className="my-3">
+                        <div className="pt-3 mb-5">
                             <div><label for="name">Name</label></div>
                             <input type="text" className="input-field"/>
                         </div>
-                        <div className="my-3">
+                        <div className=" mb-5">
                             <div><label for="name">Email</label></div>
                             <input type="email" className="input-field"/>
                         </div>
-                        <div className="my-3">
+                        <div className="mb-4">
                             <div><label for="name">Phone</label></div>
                             <input type="phone" className="input-field"/>
                         </div>

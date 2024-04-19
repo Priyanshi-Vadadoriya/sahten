@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='footer-info '>
                         <div>
                             <img src={footerLogo} alt="" cllassName='img-fluid'/>
-                            <p className='my-3'>Manta Ray Lost River sucker smalleye gourami peamouth?<br/> M-war fish; </p>
+                            <p className='my-4'>Manta Ray Lost River sucker<br/> smalleye gourami peamouth? <br/>M-war fish; </p>
                             
                             <div className='d-flex'>
                                 <div>
@@ -35,9 +35,9 @@ const Footer = () => {
                     <div className='contact-us'>
                         <h5>Contact us</h5>
                         <div className='contact'>
-                            <h6><i class="fa-solid fa-location-arrow me-2"></i><Link>Greenville, Sc</Link></h6>
-                            <h6><i class="fa-solid fa-phone me-2"></i><Link>+1-833-722-6338</Link></h6>
-                            <h6><i class="fa-solid fa-location-dot me-2"></i><Link>Contact@101sbc.com</Link></h6>
+                            <h6><i class="fa-solid fa-location-dot me-2 mb-3"></i><Link>Greenville, Sc</Link></h6>
+                            <h6><i class="fa-solid fa-phone me-2 mb-3"></i><Link>+1-833-722-6338</Link></h6>
+                            <h6><i class="fa-solid fa-envelope me-2 mb-3"></i><Link>Contact@101sbc.com</Link></h6>
                         </div>
                     </div>
                 </div>
@@ -45,13 +45,13 @@ const Footer = () => {
                     <div className='privacy-policy'>
                         <h5>Privacy Policy</h5>
                         <div className='policy'>
-                            <div>
+                            <div className='mb-3'>
                                 <Link>Overview</Link>
                             </div>
-                            <div>
+                            <div className='mb-3'>
                                 <Link>Features</Link>
                             </div>
-                            <div>
+                            <div className='mb-3'>
                                 <Link>Solutions</Link>
                             </div>
                         </div>

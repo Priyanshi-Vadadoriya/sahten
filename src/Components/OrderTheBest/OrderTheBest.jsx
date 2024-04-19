@@ -14,8 +14,11 @@ const OrderTheBest = () => {
                                 <h1 className="display-6">Order The Best<br/>LEBANESE<br/>Food Anytime</h1>
                                 <p className='mt-2'>Our delicious homemade food is waiting for you,<br/>We are always near you with fresh items of food.</p>
                                 <div className='pt-2'>
-                                    <Link>Explore Food</Link>
+                                    
                                 </div>
+                                <button class="cssbuttons-io">
+                                    <span><Link>Explore Food</Link></span>
+                                </button>
                             </div>
                         </div>
                     </div>

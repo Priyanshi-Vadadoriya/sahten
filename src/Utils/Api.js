@@ -40,84 +40,72 @@ export const productData = [
     {
         id: 1,
         image: product1,
-        price: "$6.00",
         title: "Tabbouleh",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 2,
         image: product2,
-        price: "$6.00",
         title: "Zaatar",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 3,
         image: product3,
-        price: "$9.00",
         title: "Warak eenab",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 4,
         image: product4,
-        price: "$4.00",
         title: "Pizza",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 5,
         image: product1,
-        price: "$6.00",
         title: "Tabbouleh",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 6,
         image: product2,
-        price: "$6.00",
         title: "Zaatar",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 7,
         image: product3,
-        price: "$9.00",
         title: "Warak eenab",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 8,
         image: product4,
-        price: "$4.00",
         title: "Pizza",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 9,
         image: product1,
-        price: "$6.00",
         title: "Tabbouleh",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 10,
         image: product2,
-        price: "$6.00",
         title: "Zaatar",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 11,
         image: product3,
-        price: "$9.00",
         title: "Warak eenab",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     },
     {
         id: 12,
         image: product4,
-        price: "$4.00",
         title: "Pizza",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
     }

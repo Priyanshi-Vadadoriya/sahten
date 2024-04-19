@@ -20,7 +20,7 @@ const Albums = () => {
                                        <Link to="/gallery"><img src={album.image} alt=""/></Link>
                                     </div>  
                                     <div className='album-card-title'>
-                                        <h2 className='display-7 my-2'>{album.title} </h2>
+                                        <h2 className='display-7 '>{album.title} </h2>
                                     </div>
                                 </div>
                             </div>

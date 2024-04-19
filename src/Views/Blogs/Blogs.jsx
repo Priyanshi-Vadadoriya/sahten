@@ -29,8 +29,11 @@ const Blogs = () => {
                   diam quam, semper iaculis condimentum ac, vestibulum eu nisl.
                 </p>
                 <div className="read-more-btn">
-                  <Link to="/tabbouleh">READ MORE</Link>
+                  <button class="cssbuttons-io">
+                    <span> <Link to="/tabbouleh">READ MORE</Link></span>
+                  </button>
                 </div>
+               
               </div>
             </div>
           </div>

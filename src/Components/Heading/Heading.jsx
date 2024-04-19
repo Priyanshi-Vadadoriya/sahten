@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Heading = (props) => {
   return (
     <div>
-      <div className="heading-section mb-5">
+      <div className="heading-section mb-3">
         <div className="container">
           <div>
             <Link>{props.subtitle}</Link>/<Link>{props.subtitle2}</Link>

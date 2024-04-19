@@ -19,7 +19,6 @@ const Products = () => {
                         <img src={product.image} alt="" className="img-fluid"/>
                     </div>
                     <div className="product-card-info">
-                        <h5><span className="display-6">{product.price}</span></h5>
                         <h3 className="ms-3 mt-3">{product.title}</h3>
                         <p className="ms-3">{product.data}</p>
                     </div>
