@@ -26,8 +26,10 @@ const ContactUs = () => {
 
                     </div>
                     <div className="d-flex justify-content-end">
-                          <Link className="submit-btn ">SUBMIT</Link>
-                        </div>
+                      <button class="cssbuttons-io contact-submit-btn">
+                        <span><Link className="submit-btn ">SUBMIT</Link></span>
+                      </button>
+                    </div>
                 </div>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-5">

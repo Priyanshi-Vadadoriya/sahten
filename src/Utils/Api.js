@@ -11,6 +11,8 @@ import albumImg3 from "../assets/img/Albums/album-img3.png";
 import albumImg4 from "../assets/img/Albums/album-img4.png";
 import albumImg5 from "../assets/img/Albums/album-img5.png";
 import albumImg6 from "../assets/img/Albums/album-img6.png";
+import trendingImg1 from "../assets/img/TrendingNow/tending-img1.png";
+import trendingImg2 from "../assets/img/TrendingNow/tending-img2.png";
 
 
 export const blogData = [
@@ -142,5 +144,90 @@ export const albumsData = [
         id: 6,
         image: albumImg6,
         title: "Event"
+    }
+]
+
+
+export const TrendingNowData = [
+    {
+        id: 1,
+        image: trendingImg1,
+        price:"$5",
+        title:"Tabbouleh",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
+    },
+    {
+        id: 2,
+        image: trendingImg2,
+        price:"$5",
+        title:"Pizza",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
+    },
+    {
+        id: 3,
+        image: trendingImg1,
+        price:"$5",
+        title:"Tabbouleh",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
+    },
+    {
+        id: 4,
+        image: trendingImg2,
+        price:"$5",
+        title:"Pizza",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
+    },
+ 
+]
+
+
+
+export const PopularDishes = [
+    {
+        id: 1,
+        image: product1,
+        title: "Tabbouleh",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
+    },
+    {
+        id: 2,
+        image: product2,
+        title: "Zaatar",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
+    },
+    {
+        id: 3,
+        image: product3,
+        title: "Warak eenab",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
+    },
+    {
+        id: 4,
+        image: product4,
+        title: "Pizza",
+        data:"Lorem ipsum dolor sit amet, consectetur adipiscing"
+    }
+]
+
+
+export const HomeBlogData = [
+    {
+        id: 1,
+        image: blogImage1,
+        title: "Tabbouleh",
+        data:"Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabit"
+    },
+    {
+        id: 2,
+        image: blogImage2,
+        title: "Warak eenab",
+        data:"Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabit",
+        margin: "20px"
+    },
+    {
+        id: 3,
+        image: blogImage3,
+        title: "Pizza",
+        data:"Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabit"
     }
 ]

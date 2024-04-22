@@ -7,7 +7,7 @@ const OrderTheBest = () => {
     <section>
         <div className="order-the-best-section" >
             <div className='container-fluid'>
-                <div className='row align-items-center'>
+                <div className='row align-items-center order-the-best'>
                     <div className='col-sm-12 col-md-12 col-lg-6'>
                         <div className='order-the-best-info'>    
                             <div className="clean-fresh-text " >
@@ -27,7 +27,20 @@ const OrderTheBest = () => {
                             <img src={orderImage} alt="" className='img-fluid'/>
                         </div>
                     </div>
-
+                    <div className='banner-social-icons d-flex justify-content-end'>
+                        <div className='banner-social-line'>
+                            <span></span>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                    </div>
                 </div>
             </div>  
         </div>
