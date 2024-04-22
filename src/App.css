@@ -299,7 +299,8 @@ body {
     
     .trending-now-card {
       margin: 10px 0px 60px 0px;
-      border: 2px solid #e2e2e3;
+      border: 1px solid #e2e2e3;
+      border-radius: 0px 90px 90px 0px;
     }
     .trending-now-info{
       padding-left: 30px;
@@ -784,6 +785,121 @@ body {
 /* footer-section css end */
 
 
+@media screen and (min-width: 1920px) and (max-width: 4480px) {
+  .navbar-nav{
+    padding: 25px 0px;
+    .nav-link{
+      font-size: 22px;
+    }
+  }
+  .heading-section {
+    margin-top: 120px;
+    padding: 70px 0px 70px 0px;
+  }
+  .blogs-section{
+    .blog-info{
+      & p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      & a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+   
+  }
+  .order-the-best-section{
+  .clean-fresh-text{
+    .order-the-best-info {
+      .clean-fresh-text {
+        top: 50%;
+      }
+    }
+    & h1{
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 73.14px;
+    }
+    & p{
+      font-size: 22px;
+      line-height: 25px;
+    }
+  }
+    .banner-social-icons{
+      .banner-social-line{
+        & span{
+          width: 100px;
+          height: 1px;
+       }
+      }
+      & i{
+        margin-left: 20px;
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+.navbar-nav{
+  padding: 25px 0px;
+  .nav-link{
+    font-size: 22px;
+  }
+}
+.heading-section {
+  margin-top: 120px;
+  padding: 70px 0px 70px 0px;
+}
+.blogs-section{
+  .blog-info{
+    & p{
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    & a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+ 
+}
+.order-the-best-section{
+.clean-fresh-text{
+  .order-the-best-info {
+    .clean-fresh-text {
+      top: 50%;
+    }
+  }
+  & h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 73.14px;
+  }
+  & p{
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+  .banner-social-icons{
+    .banner-social-line{
+      & span{
+        width: 100px;
+        height: 1px;
+     }
+    }
+    & i{
+      margin-left: 20px;
+      font-size: 22px;
+    }
+  }
+}
+}
 
 @media(max-width: 992px) {
   
@@ -856,6 +972,12 @@ body {
     .margin-y{
       margin: 30px 0px 50px 0px;
     }
+  }
+  .footer-section{
+    padding: 80px 0px 80px 0px;
+    background: url('./assets/img/footer-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 

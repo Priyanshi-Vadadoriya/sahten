@@ -8,7 +8,7 @@ const OrderTheBest = () => {
         <div className="order-the-best-section" >
             <div className='container-fluid'>
                 <div className='row align-items-center order-the-best'>
-                    <div className='col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-sm-12 col-md-6 col-lg-6'>
                         <div className='order-the-best-info'>    
                             <div className="clean-fresh-text " >
                                 <h1 className="display-6">Order The Best<br/>LEBANESE<br/>Food Anytime</h1>
@@ -22,7 +22,7 @@ const OrderTheBest = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-sm-12 col-md-12 col-lg-6 p-0'>
+                    <div className='col-sm-12 col-md-6 col-lg-6 p-0'>
                         <div className='order-the-best-img  text-center d-flex justify-content-center align-items-center'>
                             <img src={orderImage} alt="" className='img-fluid'/>
                         </div>
@@ -31,15 +31,21 @@ const OrderTheBest = () => {
                         <div className='banner-social-line'>
                             <span></span>
                         </div>
-                        <div>
-                            <i class="fa-brands fa-pinterest-p"></i>
-                        </div>
-                        <div>
-                            <i class="fa-brands fa-twitter"></i>
-                        </div>
-                        <div>
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </div>
+                        <Link>
+                            <div>
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </Link>
+                       <Link>
+                            <div>
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                       </Link>
                     </div>
                 </div>
             </div>  
