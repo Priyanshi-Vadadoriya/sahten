@@ -342,6 +342,7 @@ body {
 
 /* Home page blogs section css start */
 .home-page-blog-section{
+  overflow-x: hidden !important;
   background: url('assets/img/Blog/blog-bg.png') no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -373,7 +374,6 @@ body {
     }
     .blog-cards-section{
       .blog-card{
-        width: 100%;
         transition: all 0.8s ease;
         &:hover{
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
