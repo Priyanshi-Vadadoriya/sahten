@@ -15,7 +15,7 @@ const Footer = () => {
                             
                             <div className='d-flex'>
                                 <div>
-                                   <Link><span><i class="fa-brands fa-twitter"></i></span></Link> 
+                                   <Link><span><i class="fa-brands fa-youtube"></i></span></Link> 
                                 </div>
                                 <div>
                                     <Link><span><i class="fa-brands fa-pinterest-p"></i></span></Link>
