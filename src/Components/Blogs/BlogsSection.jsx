@@ -17,7 +17,8 @@ const BlogsSection = () => {
                   <div className="blog-card">
                     <div className="blog-card-image">
                       <img src={item.image} alt="" className="img-fluid" />
-                      <div className="blog-card-info">
+                    </div>
+                    <div className="blog-card-info">
                         <h5 className="display-7 mb-3">{item.title}</h5>
                         <p>
                           {item.data}
@@ -26,7 +27,6 @@ const BlogsSection = () => {
                             <Link to="/tabbouleh">read more</Link>
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
               );

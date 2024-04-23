@@ -26,7 +26,7 @@ const Header = () => {
         }`}
       >
         <div className="container text-center">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src={logo} alt="" className="logo-img" />
           </Link>
           <button

@@ -46,13 +46,19 @@ const Footer = () => {
                         <h5>Privacy Policy</h5>
                         <div className='policy'>
                             <div className='mb-3'>
-                                <Link>Overview</Link>
+                                <Link>Product</Link>
                             </div>
                             <div className='mb-3'>
-                                <Link>Features</Link>
+                                <Link>Album</Link>
                             </div>
                             <div className='mb-3'>
-                                <Link>Solutions</Link>
+                                <Link>About US</Link>
+                            </div>
+                            <div className='mb-3'>
+                                <Link>Blogs</Link>
+                            </div>
+                            <div className='mb-3'>
+                                <Link>Contect US</Link>
                             </div>
                         </div>
                     </div>
@@ -68,7 +74,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">
-            <p>"Copy Right to sahten Pvt. Ltd"</p>
+            <p><Link to={"https://creativecartel.me/" } target="_blank">Copyrights © 2024 All Rights Reserved | Powered by sahten</Link></p>
         </div>
     </div>
   )

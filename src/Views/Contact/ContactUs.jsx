@@ -36,13 +36,13 @@ const ContactUs = () => {
                 <div className="contact">
                     <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                     <div className="my-2">
-                        <i class="fa-solid fa-location-arrow me-4"></i><Link>Greenville, Sc</Link>
+                        <i class="fa-solid fa-location-dot me-4"></i><Link>Greenville, Sc</Link>
                     </div>
                     <div className="my-2">
                         <i class="fa-solid fa-phone me-4"></i><Link>+1-833-722-6338</Link>
                     </div>
                     <div className="my-2">
-                        <i class="fa-solid fa-location-dot me-4"></i><Link>Contact@101sbc.com</Link>
+                        <i class="fa-solid fa-envelope me-4"></i><Link>Contact@101sbc.com</Link>
                     </div>
                 </div>
             </div>
