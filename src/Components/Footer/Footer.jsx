@@ -43,22 +43,25 @@ const Footer = () => {
                 </div>
                 <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
                     <div className='privacy-policy'>
-                        <h5>Privacy Policy</h5>
+                        <h5>Pages</h5>
                         <div className='policy'>
                             <div className='mb-3'>
-                                <Link>Product</Link>
+                                <Link to="/products">Product</Link>
                             </div>
                             <div className='mb-3'>
-                                <Link>Album</Link>
+                                <Link to="/albums">Album</Link>
                             </div>
                             <div className='mb-3'>
-                                <Link>About US</Link>
+                                <Link to="/aboutus">About Us</Link>
                             </div>
                             <div className='mb-3'>
-                                <Link>Blogs</Link>
+                                <Link to="/blogs">Blogs</Link>
                             </div>
                             <div className='mb-3'>
-                                <Link>Contect US</Link>
+                                <Link to="/contact">Contact Us</Link>
+                            </div>
+                            <div className='mb-3'>
+                                <Link>Privacy Policy</Link>
                             </div>
                         </div>
                     </div>
@@ -74,7 +77,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">
-            <p><Link to={"https://creativecartel.me/" } target="_blank">Copyrights © 2024 All Rights Reserved | Powered by sahten</Link></p>
+            <p>Copyrights © 2024 All Rights Reserved | Powered by <Link to={"https://creativecartel.me/" } target="_blank">Creative Cartel</Link></p>
         </div>
     </div>
   )

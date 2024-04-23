@@ -7,7 +7,7 @@ const Heading = (props) => {
       <div className="heading-section mb-3">
         <div className="container">
           <div>
-            <Link>{props.subtitle}</Link>/<Link>{props.subtitle2}</Link>
+            <Link to="/">{props.subtitle}</Link>/<Link>{props.subtitle2}</Link>
           </div>
           <h2 className="display-5">{props.title}</h2>
         </div>

@@ -5,7 +5,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 /* Home page heading section css start */
@@ -504,6 +504,7 @@ body {
   & a {
     font-family: "Inter", sans-serif;
     font-size: 16px;
+    padding: 5px;
     font-weight: 400;
     line-height: 20px;
     color: #264958;
@@ -845,7 +846,11 @@ body {
     padding: 15px 0px 5px 0px;
     & p {
       text-align: center;
-
+      font-size: 16px;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      line-height: 17px;
+      color:#D2D3D2;
       & a{
         text-decoration: none;
         font-size: 16px;
@@ -916,7 +921,6 @@ body {
     }
   }
 }
-
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
 .navbar-nav{
@@ -1044,7 +1048,6 @@ body {
  
 }
 
-
 @media(max-width: 768px) {
   .about-us-section{
     .margin-y{
@@ -1070,7 +1073,6 @@ body {
      min-height: 50vh;
     }
    }
-   
 }
 
 @media(max-width: 600px) {  
