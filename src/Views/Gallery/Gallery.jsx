@@ -10,7 +10,7 @@ import foodImg5 from '../../assets/img/Gallery/food-img5.png';
 const Gallery = () => {
   return (
     <div className='gallery-section'>
-      <Heading title="Dishes" subtitle="Home" subtitle2="gallery" />
+      <Heading title="Dishes" subtitle="Home" subtitle2="Dishes" />
 
       <div className='container'>
         <div className='row'>

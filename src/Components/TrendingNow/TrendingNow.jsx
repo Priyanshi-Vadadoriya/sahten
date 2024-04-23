@@ -23,11 +23,11 @@ const TrendingNow = () => {
               <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
-            //     autoplay={{
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            //   }}
-            //   loop={true}
+                autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              loop={true}
                 pagination={{
                   type: 'fraction',
                 }}
@@ -54,11 +54,10 @@ const TrendingNow = () => {
                     <div className='trending-now-card d-flex justify-content-center align-items-center'>
                           <div className='col-6'>    
                             <div className='trending-now-info'>
-                              <h2 className='display-6 fw-400'>{item.price}</h2>
                               <h3 className='display-6 fw-600'>{item.title}</h3>
                               <p>{item.data}</p>
                               <div className="mb-2">
-                                <Link>VIEW MORE</Link>
+                                <Link to="/products">VIEW MORE</Link>
                               </div>
                             </div>
                           </div>

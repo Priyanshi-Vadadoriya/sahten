@@ -23,7 +23,7 @@ const BlogsSection = () => {
                           {item.data}
                         </p>
                         <div className="read-more-btn">
-                            <Link>read more</Link>
+                            <Link to="/tabbouleh">read more</Link>
                         </div>
                       </div>
                     </div>

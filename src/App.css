@@ -109,10 +109,10 @@ body {
   border-radius: 6px;
   cursor: pointer;
   border: none;
-  background: linear-gradient(to right, #ecc187,#15AC75);
+  background: linear-gradient(to right, #6d6bd4,#15AC75);
   color: ghostwhite;
   overflow: hidden;
-}
+} 
 
 .cssbuttons-io svg {
   width: 1.2em;
@@ -304,9 +304,7 @@ body {
     }
     .trending-now-info{
       padding-left: 30px;
-      & h2 {
-        color: #55a47a;
-      }
+      
       & h3,
       h2, h5{
         font-family: "Katibeh", serif;
@@ -371,6 +369,10 @@ body {
     }
     .blog-cards-section{
       .blog-card{
+        transition: all 0.8s ease;
+        &:hover{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
         margin: 10px 0px;
         margin-inline: 20px;
         border-radius: 5PX;
@@ -397,11 +399,11 @@ body {
           .read-more-btn{
             width: 80%;
             margin: auto;
-            width: 253px;
             border-radius: 12px 12px 10px 10px;
             border: 1px solid #516C76;
             text-align: center;
             padding: 5px 0px;
+            transition: all 0.8s ease;
             & a{
               text-decoration: none;
               text-transform: uppercase;
@@ -410,6 +412,11 @@ body {
               font-weight: 500;
               line-height: 20px;
               color: #516C76;
+            }
+            &:hover{
+              border: none;
+              background: #D4F2E2;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
           }
         }
@@ -424,7 +431,34 @@ body {
 .popular-dishes-section{
   background: #D7F3E380;
  
-  & button{
+  .blog-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .view-more-btn{
+   border: 1px solid #516C76;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   border-radius: 12px 12px 10px 10px;
+   padding: 5px 0px;
+   transition: all 0.8s ease;
+   & a{
+     text-transform: uppercase;
+     text-decoration: none;
+     color:#516C76;
+     font-family: "Inter", sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 20px;
+   }
+   &:hover{
+    border: none;
+    background: #D4F2E2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  }
+
+  /* & button{
     width: 90%;
     margin-left: 13px;
     border: 1px solid #516C76;
@@ -440,7 +474,7 @@ body {
       font-weight: 500;
       line-height: 20px;
     }
-  }
+  } */
 }
 /* popular-dishes-section css end */
 
@@ -533,6 +567,7 @@ body {
   .blog-cards-section{
     margin: 70px 0px 50px 0px ;
     .blog-card{
+      width: 100%;
       border-radius: 5PX;
       & h5{
         font-weight: 600;
@@ -547,7 +582,15 @@ body {
         line-height: 19.5px;
         color: #000000;
       }
+      .blog-card-image{
+        width: 100%;
+        .img-fluid {
+          width: 100% !important;
+          height: auto;
+      }
+      }
       .blog-card-info{
+        width: 100%;
         background: #FEF8F0;
         padding: 20px 15px;
         & a{
@@ -634,10 +677,15 @@ body {
 /* product-section css start */
 
   .product-card{
+    transition: all 0.8s ease;
+    &:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
     padding: 10px;
     margin-bottom: 40px;
   }
   .product-card-img{
+    
     & img{
       width: 100%;
     }
@@ -690,7 +738,7 @@ body {
 
 /* footer-section css start */
 .footer-section{
-  padding: 80px 0px 80px 0px;
+  padding: 50px 0px 0px 0px;
   background: url('./assets/img/footer-bg.png') no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -779,6 +827,19 @@ body {
       &:hover{
         color: #15AC75;
       }
+    }
+  }
+  .copyright {
+    background: #CFD4D21A;
+    margin-top:50px;
+    padding: 20px 0px 5px 0px;
+    & p {
+      font-size: 16px;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      line-height: 17px;
+      text-align: center;
+      color:#D2D3D2;
     }
   }
 }
@@ -974,7 +1035,6 @@ body {
     }
   }
   .footer-section{
-    padding: 80px 0px 80px 0px;
     background: url('./assets/img/footer-bg.png') no-repeat;
     background-size: cover;
     background-position: center;

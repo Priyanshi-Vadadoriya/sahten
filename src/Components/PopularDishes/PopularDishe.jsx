@@ -21,9 +21,9 @@ const PopularDishe = () => {
                     <div className="product-card-info">
                       <h3 className="ms-3 mt-3">{product.title}</h3>
                       <p className="ms-3">{product.data}</p>
-                        <button>
-                            <Link>view more</Link>
-                        </button>
+                        <div className="view-more-btn">
+                            <Link to="/tabbouleh">view more</Link>
+                        </div>
                     </div>
                   </div>
                 </div>

@@ -67,6 +67,9 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <div className="copyright">
+            <p>"Copy Right to sahten Pvt. Ltd"</p>
+        </div>
     </div>
   )
 }

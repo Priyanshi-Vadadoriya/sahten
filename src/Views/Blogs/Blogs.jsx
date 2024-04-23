@@ -46,12 +46,12 @@ const Blogs = () => {
                     <div className="blog-card" >
                       <div className="blog-card-image">
                         <img src={item.image} alt="" className="img-fluid" />
-                        <div className="blog-card-info">
+                      </div>
+                      <div className="blog-card-info">
                         <h5 className="display-7">{item.title}</h5>
                         <p>
                           {item.data}<Link to="/tabbouleh">more</Link>
                         </p>
-                      </div>
                       </div>
                       
                     </div>

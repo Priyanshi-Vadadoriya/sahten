@@ -13,6 +13,9 @@ import albumImg5 from "../assets/img/Albums/album-img5.png";
 import albumImg6 from "../assets/img/Albums/album-img6.png";
 import trendingImg1 from "../assets/img/TrendingNow/tending-img1.png";
 import trendingImg2 from "../assets/img/TrendingNow/tending-img2.png";
+import homeblogImg1 from "../assets/img/HomePageBlog-img/home-page-blog-img1.png";
+import homeblogImg2 from "../assets/img/HomePageBlog-img/home-page-blog-img2.png";
+import homeblogImg3 from "../assets/img/HomePageBlog-img/home-page-blog-img3.png";
 
 
 export const blogData = [
@@ -152,28 +155,24 @@ export const TrendingNowData = [
     {
         id: 1,
         image: trendingImg1,
-        price:"$5",
         title:"Tabbouleh",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
     },
     {
         id: 2,
         image: trendingImg2,
-        price:"$5",
         title:"Pizza",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
     },
     {
         id: 3,
         image: trendingImg1,
-        price:"$5",
         title:"Tabbouleh",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
     },
     {
         id: 4,
         image: trendingImg2,
-        price:"$5",
         title:"Pizza",
         data:"Lorem ipsum dolor sit amet, consectetur adipiscing elit utui ",
     },
@@ -213,20 +212,20 @@ export const PopularDishes = [
 export const HomeBlogData = [
     {
         id: 1,
-        image: blogImage1,
+        image: homeblogImg1,
         title: "Tabbouleh",
         data:"Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabit"
     },
     {
         id: 2,
-        image: blogImage2,
+        image: homeblogImg2,
         title: "Warak eenab",
         data:"Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabit",
         margin: "20px"
     },
     {
         id: 3,
-        image: blogImage3,
+        image: homeblogImg3,
         title: "Pizza",
         data:"Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabit"
     }
