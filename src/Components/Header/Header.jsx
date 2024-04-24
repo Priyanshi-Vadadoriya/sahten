@@ -63,7 +63,6 @@ const Header = () => {
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>

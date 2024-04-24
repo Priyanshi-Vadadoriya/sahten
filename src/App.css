@@ -55,8 +55,8 @@ body {
     box-shadow: none;
   }
 }
+
 .fixed-navbar { 
-  
   background-color: #D4F2E2;
   z-index: 999;
   .navbar-nav .nav-item {
@@ -160,6 +160,35 @@ body {
 }
 /* button css end */
 
+
+
+/*all page Heading section css start */
+.heading-section {
+  margin-top: 80px;
+  background: #fef8f0;
+  padding: 50px 0px 50px 0px;
+  & h2 {
+    font-weight: 400;
+    line-height: 20px;
+    color: #231942;
+    text-transform: uppercase;
+    font-family: "Katibeh", serif;
+    margin-top: 3px;
+  }
+  & a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #264958;
+    text-decoration: none;
+  }
+}
+/*all page Heading section css end */
+
+
+
 /* order-the-best-section css start */
 .order-the-best-section {
   font-family: "Montserrat", sans-serif;
@@ -225,119 +254,82 @@ body {
 }
 /* order-the-best-section css end */
 
-/* contact-us-section css start */
-.contact-us-section{
-  font-family: "Montserrat", sans-serif;
-  min-height: 100vh;
-  background: url('assets/img/ContactUs/contactUs-bg.png') no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-
-  .contact-us-form{
-    padding: 30px;
-    width: 50%;
-    background-color: #ffffff;
-  }
-  .form{
-    border-right: 1px solid #6C6A6A;
-  }
-  .contact-us{
-    & h3{
-      font-weight: 600;
-      line-height: 42.67px;
-      color: #6C6A6A;
-    }
-    
-  }
-  .contact{
-    padding-top: 70px;
-    & p{
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 19.5px;
-      color: #252425;
-    }
-    & i{
-      color: #979393;
-      &:hover{
-        color: #15AC75;
-      }
-    }
-    & a{
-      text-decoration: none;
-      color: #000000;
-      transition: all 0.5s ease;
-      &:hover{
-        color: #15AC75;
-      }
-    }
-  }
- 
-  & a{
-    text-decoration: none;
-    color:#ffffff
-  }
-  .input-field{
-    width: 90%;
-    border: none;
-    border-bottom: 1px solid #6C6A6A;
-    outline: 0;
-    font-size: 17px;
-    color: #000000;
-    padding: 7px 0;
-    background: transparent;
-    transition: border-color 0.2s;
-    &:focus{
-      border-bottom: 1px solid #15AC75; 
-    }
-  }
-  .contact-submit-btn{
-    margin-right: 35px;
-  }
-}
-/* contact-us-section css end */
 
 /* trending-now-section css start */
 .trending-now-section{
    
     
-    .trending-now-card {
-      margin: 10px 0px 60px 0px;
-      border: 1px solid #e2e2e3;
-      border-radius: 0px 90px 90px 0px;
+  .trending-now-card {
+    margin: 10px 0px 60px 0px;
+    border: 1px solid #e2e2e3;
+    border-radius: 0px 90px 90px 0px;
+  }
+  .trending-now-info{
+    padding-left: 30px;
+    
+    & h3,
+    h2, h5{
+      font-family: "Katibeh", serif;
     }
-    .trending-now-info{
-      padding-left: 30px;
-      
-      & h3,
-      h2, h5{
-        font-family: "Katibeh", serif;
-      }
 
-      & p {
-        font-family: "Inter", sans-serif;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 20px;
-        color: #264958;
-        margin-bottom: 5px;
-        text-transform: uppercase;
-      }
-      & a {
-        color: #264958;
-        font-family: "Katibeh", serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 20px;
-      }
+    & p {
+      font-family: "Inter", sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 20px;
+      color: #264958;
+      margin-bottom: 5px;
+      text-transform: uppercase;
     }
-    .trending-now-img {
-      border-left: 2px solid #e2e2e3;
-      text-align: center;
+    & a {
+      color: #264958;
+      font-family: "Katibeh", serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
     }
-  
+  }
+  .trending-now-img {
+    border-left: 2px solid #e2e2e3;
+    text-align: center;
+  }
+
 }
 /* trending-now-section css end */
+
+
+/* popular-dishes-section css start */
+.popular-dishes-section{
+  background: #D7F3E380;
+ 
+  .blog-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .view-more-btn{
+   border: 1px solid #516C76;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   border-radius: 12px 12px 10px 10px;
+   padding: 5px 0px;
+   transition: all 0.8s ease;
+   & a{
+     text-transform: uppercase;
+     text-decoration: none;
+     color:#516C76;
+     font-family: "Inter", sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 20px;
+   }
+   &:hover{
+    border: none;
+    background: #D4F2E2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  } 
+}
+/* popular-dishes-section css end */
 
 
 /* Home page blogs section css start */
@@ -436,182 +428,69 @@ body {
 /* Home page blogs section css end */
 
 
-/* popular-dishes-section css start */
-.popular-dishes-section{
-  background: #D7F3E380;
- 
-  .blog-card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .view-more-btn{
-   border: 1px solid #516C76;
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   border-radius: 12px 12px 10px 10px;
-   padding: 5px 0px;
-   transition: all 0.8s ease;
-   & a{
-     text-transform: uppercase;
-     text-decoration: none;
-     color:#516C76;
-     font-family: "Inter", sans-serif;
-     font-size: 14px;
-     font-weight: 500;
-     line-height: 20px;
-   }
-   &:hover{
-    border: none;
-    background: #D4F2E2;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  }
 
-  /* & button{
-    width: 90%;
-    margin-left: 13px;
-    border: 1px solid #516C76;
-    outline: none;
-    border-radius: 12px 12px 10px 10px;
-    padding: 5px 0px;
-    & a{
-      text-transform: uppercase;
-      text-decoration: none;
-      color:#516C76;
-      font-family: "Inter", sans-serif;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 20px;
-    }
-  } */
+/* product-section css start */
+
+.product-card{
+  transition: all 0.8s ease;
+  &:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  padding: 10px;
+  margin-bottom: 40px;
 }
-/* popular-dishes-section css end */
-
-
-/*all page Heading section css start */
-.heading-section {
-  margin-top: 80px;
-  background: #fef8f0;
-  padding: 50px 0px 50px 0px;
-  & h2 {
-    font-weight: 400;
+.product-card-img{
+  
+  & img{
+    width: 100%;
+  }
+}
+.product-card-info{
+  padding: 20px 0px 10px 0px;
+  background: #FEF8F0;
+  
+  & h3{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 20px;
     color: #231942;
     text-transform: uppercase;
-    font-family: "Katibeh", serif;
-    margin-top: 3px;
   }
-  & a {
+  & p{
     font-family: "Inter", sans-serif;
-    font-size: 16px;
-    padding: 5px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500;
     line-height: 20px;
-    color: #264958;
-    text-decoration: none;
+    text-transform: uppercase;
+    color: #264958CC;
+
   }
 }
-/*all page Heading section css end */
+/* product-section css end */
 
 
-/* Tabbouleh section css start */
-.tabbouleh-section{
-  margin-bottom: 30px;
-  .tabbouleh-image{
-    min-height: 100vh;
-    background: url('./assets/img/Tabbouleh/tabbouleh-img-bg.png.jpg') no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+/* album-section css start */
+.album-section{
+  .album-card{
+    padding: 0px 30px;
   }
-  .tabbouleh-information{
-    background-color:#FEF8F0;
-  }
-  .tabbouleh-info{
-    padding: 50px 0px 50px 0px;
-    & h4{
-      font-family: "Inter", sans-serif;
-      font-weight: 600;
-      line-height: 20px;
-      color: #364A19;
-      text-transform: uppercase;
-      margin-bottom: 40px;
-    }
-    & p{
-      font-family: "Inter", sans-serif;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 25px;
-      text-align: justified;
-      text-transform: uppercase;
-    }
-  }
-}
-/* Tabbouleh section css end */
-
-/* blogs section css start */
-.blogs-section{
-  font-family: "Inter", sans-serif;
- 
-  .blog-info{
-    padding: 20px 10px;
-    & h2{
-      font-weight: 700;
-      line-height: 20px;
-      color: #231942;
-      text-transform: uppercase;
-      margin-bottom: 35px;
-    }
-    & p{
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 30px;
-    }
-    & a{
-      text-decoration: none;
-      color: #ffffff;
-    }
-    .read-more-btn{
-      margin-top: 35px;
-    }
-  }
-  .blog-cards-section{
-    margin: 70px 0px 50px 0px;
-    .blog-card{
+  .album-card-img{
+    & img{
       width: 100%;
-      border-radius: 5PX;
-      & h5{
-        font-weight: 600;
-        line-height: 20px;
-        color: #231942;
-        text-transform: uppercase;
-      }
-      & p{
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19.5px;
-        color: #000000;
-      }
-      .blog-card-image{
-        width: 100%;
-        .img-fluid {
-          width: 100% !important;
-          height: auto;
-      }
-      }
-      .blog-card-info{
-        width: 100%;
-        background: #FEF8F0;
-        padding: 20px 15px;
-        & a{
-          text-decoration: none;
-          color: #15AC75;
-        }
-      }
+    }
+  }
+  .album-card-title{
+    & h2{
+      font-family: "Katibeh", serif;
+      font-weight: 500;
+      line-height: 68px;
+      text-transform: uppercase;
     }
   }
 }
-/* blogs section css end */
+/* album-section css end */
+
 
 /* about-us-section css start */
 .about-us-section{
@@ -684,67 +563,181 @@ body {
 }
 /* about-us-section css end */
 
-/* product-section css start */
 
-  .product-card{
-    transition: all 0.8s ease;
-    &:hover{
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    padding: 10px;
-    margin-bottom: 40px;
-  }
-  .product-card-img{
-    
-    & img{
-      width: 100%;
-    }
-  }
-  .product-card-info{
-    padding: 20px 0px 10px 0px;
-    background: #FEF8F0;
-    
-    & h3{
-      font-family: "Inter", sans-serif;
-      font-size: 16px;
-      font-weight: 600;
+/* blogs section css start */
+.blogs-section{
+  font-family: "Inter", sans-serif;
+ 
+  .blog-info{
+    padding: 20px 10px;
+    & h2{
+      font-weight: 700;
       line-height: 20px;
       color: #231942;
       text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+    & p{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    & a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .read-more-btn{
+      margin-top: 35px;
+    }
+  }
+  .blog-cards-section{
+    margin: 70px 0px 50px 0px;
+    .blog-card{
+      width: 100%;
+      border-radius: 5PX;
+      & h5{
+        font-weight: 600;
+        line-height: 20px;
+        color: #231942;
+        text-transform: uppercase;
+      }
+      & p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        color: #000000;
+      }
+      .blog-card-image{
+        width: 100%;
+        .img-fluid {
+          width: 100% !important;
+          height: auto;
+      }
+      }
+      .blog-card-info{
+        width: 100%;
+        background: #FEF8F0;
+        padding: 20px 15px;
+        & a{
+          text-decoration: none;
+          color: #15AC75;
+        }
+      }
+    }
+  }
+}
+/* blogs section css end */
+
+
+/* contact-us-section css start */
+.contact-us-section{
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  background: url('assets/img/ContactUs/contactUs-bg.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+
+  .contact-us-form{
+    padding: 30px;
+    width: 50%;
+    background-color: #ffffff;
+  }
+  .form{
+    border-right: 1px solid #6C6A6A;
+  }
+  .contact-us{
+    & h3{
+      font-weight: 600;
+      line-height: 42.67px;
+      color: #6C6A6A;
+    }
+    
+  }
+  .contact{
+    padding-top: 70px;
+    & p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.5px;
+      color: #252425;
+    }
+    & i{
+      color: #979393;
+      &:hover{
+        color: #15AC75;
+      }
+    }
+    & a{
+      text-decoration: none;
+      color: #000000;
+      transition: all 0.5s ease;
+      &:hover{
+        color: #15AC75;
+      }
+    }
+  }
+ 
+  & a{
+    text-decoration: none;
+    color:#ffffff
+  }
+  .input-field{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #6C6A6A;
+    outline: 0;
+    font-size: 17px;
+    color: #000000;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    &:focus{
+      border-bottom: 1px solid #15AC75; 
+    }
+  }
+  .contact-submit-btn{
+    margin-right: 35px;
+  }
+}
+/* contact-us-section css end */
+
+
+/* Tabbouleh section css start */
+.tabbouleh-section{
+  margin-bottom: 30px;
+  .tabbouleh-image{
+    min-height: 100vh;
+    background: url('./assets/img/Tabbouleh/tabbouleh-img-bg.png.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .tabbouleh-information{
+    background-color:#FEF8F0;
+  }
+  .tabbouleh-info{
+    padding: 50px 0px 50px 0px;
+    & h4{
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      line-height: 20px;
+      color: #364A19;
+      text-transform: uppercase;
+      margin-bottom: 40px;
     }
     & p{
       font-family: "Inter", sans-serif;
-      font-size: 13px;
-      font-weight: 500;
-      line-height: 20px;
-      text-transform: uppercase;
-      color: #264958CC;
-
-    }
-  }
-  
-/* product-section css end */
-
-/* album-section css start */
-.album-section{
-  .album-card{
-    padding: 0px 30px;
-  }
-  .album-card-img{
-    & img{
-      width: 100%;
-    }
-  }
-  .album-card-title{
-    & h2{
-      font-family: "Katibeh", serif;
-      font-weight: 500;
-      line-height: 68px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: justified;
       text-transform: uppercase;
     }
   }
 }
-/* album-section css end */
+/* Tabbouleh section css end */
+
+
 
 /* footer-section css start */
 .footer-section{
@@ -863,6 +856,8 @@ body {
   }
 }
 /* footer-section css end */
+
+
 
 
 @media screen and (min-width: 1920px) and (max-width: 4480px) {
@@ -1000,7 +995,9 @@ body {
   }
 
 @media(max-width: 992px) {
-  
+  .navbar {
+    background-color: white !important;
+  }
   .order-the-best-section {
    .order-the-best-info{
     min-height: 40vh;
@@ -1049,6 +1046,8 @@ body {
 }
 
 @media(max-width: 768px) {
+  
+  
   .about-us-section{
     .margin-y{
       margin: 30px 0px 50px 0px;
