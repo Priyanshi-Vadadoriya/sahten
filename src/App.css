@@ -1000,7 +1000,7 @@ body {
   }
   .order-the-best-section {
    .order-the-best-info{
-    min-height: 40vh;
+    min-height: 60vh;
       .clean-fresh-text{
         top: 30%;
         left: 10%;
@@ -1011,7 +1011,7 @@ body {
       }
    }
    .order-the-best-img{
-    min-height: 40vh;
+    min-height: 60vh;
    }
   }
   .contact-us-section{
